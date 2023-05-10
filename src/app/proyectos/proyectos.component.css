@@ -22,16 +22,16 @@
 .title {
   text-shadow: 2px 2px 1px aqua;
   white-space: nowrap;
-  width: 8ch;
+  width: 9ch;
 
   display: block;
   overflow: hidden;
-  animation: typing 1s steps(8), blink 0.5s infinite step-end alternate;
+  animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
   position: fixed;
   color: whitesmoke;
   font-size: 50px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  -webkit-animation: typing 1s steps(8), blink 0.5s infinite step-end alternate;
+  -webkit-animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
 }
 
 p {
@@ -68,14 +68,14 @@ p {
     margin-right: auto;
     text-shadow: 2px 2px 1px aqua;
     white-space: nowrap;
-    width: 8ch;
+    width: 9ch;
     display: block;
     overflow: hidden;
-    animation: typing 1s steps(8), blink 0.5s infinite step-end alternate;
+    animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
     color: whitesmoke;
 
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    -webkit-animation: typing 1s steps(8),
+    -webkit-animation: typing 1s steps(9),
       blink 0.5s infinite step-end alternate;
   }
 

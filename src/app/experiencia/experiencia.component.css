@@ -8,17 +8,17 @@
 }
 
 .titulo {
-  width: 9ch;
+  width: 10ch;
 
   display: block;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
+  animation: typing 1s steps(10), blink 0.5s infinite step-end alternate;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white !important;
   font-size: 50px;
   text-shadow: 1px 3px 1px aqua;
-  -webkit-animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
+  -webkit-animation: typing 1s steps(10), blink 0.5s infinite step-end alternate;
 }
 
 #huki {
@@ -175,18 +175,18 @@
   }
   .tituloMobile {
     font-size: 5.5vh;
-    width: 9ch;
+    width: 10ch;
     padding-top: 8vh;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
+    animation: typing 1s steps(10), blink 0.5s infinite step-end alternate;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: white !important;
 
     text-shadow: 1px 3px 1px aqua;
-    -webkit-animation: typing 1s steps(9),
+    -webkit-animation: typing 1s steps(10),
       blink 0.5s infinite step-end alternate;
   }
 

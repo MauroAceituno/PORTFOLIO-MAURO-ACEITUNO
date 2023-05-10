@@ -27,9 +27,9 @@
   display: block;
   white-space: nowrap;
 
-  width: 19ch;
-  animation: typing 2s steps(19), blink 0.5s infinite step-end alternate;
-  -webkit-animation: typing 2s steps(19), blink 0.5s infinite step-end alternate;
+  width: 20ch;
+  animation: typing 2s steps(20), blink 0.5s infinite step-end alternate;
+  -webkit-animation: typing 2s steps(20), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
@@ -176,9 +176,9 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     display: block;
     white-space: nowrap;
-    width: 11ch;
-    animation: typing 2s steps(11), blink 0.5s infinite step-end alternate;
-    -webkit-animation: typing 2s steps(11),
+    width: 13ch;
+    animation: typing 2s steps(13), blink 0.5s infinite step-end alternate;
+    -webkit-animation: typing 2s steps(13),
       blink 0.5s infinite step-end alternate;
     overflow: hidden;
   }
