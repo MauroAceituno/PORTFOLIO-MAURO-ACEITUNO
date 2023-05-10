@@ -23,7 +23,7 @@
   text-shadow: 2px 2px 1px aqua;
   white-space: nowrap;
   width: 8ch;
-  border-right: 4px solid aqua;
+
   display: block;
   overflow: hidden;
   animation: typing 1s steps(8), blink 0.5s infinite step-end alternate;
@@ -62,6 +62,7 @@ p {
   }
 
   .titleMobile {
+    font-size: 5.5vh;
     padding-top: 8vh;
     margin-left: auto;
     margin-right: auto;
@@ -72,7 +73,7 @@ p {
     overflow: hidden;
     animation: typing 1s steps(8), blink 0.5s infinite step-end alternate;
     color: whitesmoke;
-    font-size: 50px;
+
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     -webkit-animation: typing 1s steps(8),
       blink 0.5s infinite step-end alternate;
@@ -81,7 +82,7 @@ p {
   .mobile {
     background: linear-gradient(to top left, #090b1b, #0b113f);
     width: 100vw;
-    
+
     margin-top: 100px;
     text-align: center !important;
   }
