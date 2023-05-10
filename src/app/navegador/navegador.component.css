@@ -1,0 +1,185 @@
+.nav {
+  position: relative;
+  box-shadow: 0px 0px 5px aqua;
+  background-color: #181818;
+  color: whitesmoke;
+  width: 5vw;
+  height: 100vh;
+  display: flex;
+}
+
+svg:focus {
+  outline: none;
+}
+svg:hover {
+  color: aqua;
+}
+
+.tt {
+  margin-top: 5vh;
+  transition: 0.2s;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 26px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.tt:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.navSec {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30vh;
+  margin-left: -50px;
+}
+
+.navContactos {
+  margin-top: 68vh;
+  position: fixed;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.navContactos svg {
+  transition: 0.2s;
+  height: 30px;
+  width: 30px;
+  margin-left: -5px;
+  margin-top: 20px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.navContactos svg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.navSec svg {
+  transition: 0.2s;
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 40px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.navSec svg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* mobile */
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: fixed;
+   
+  }
+  .navMobile {
+    z-index: 30 !important;
+    position: fixed;
+    transition: 0.3s;
+    width: 100vw;
+    box-shadow: 0px 0px 3px aqua;
+    background-color: #181818;
+    color: whitesmoke;
+    height: 15vh;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+  .contentHamburger {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    margin-left: -230px;
+    padding-top: 20px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+  .contentHamburger:active {
+    color: aqua;
+  }
+
+  .navMobileOpen {
+    border-bottom: 3px solid aqua;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 30 !important;
+    transition: 0.3s;
+    width: 100vw;
+    background-color: #181818;
+    color: whitesmoke;
+    height: 45vh;
+    position: fixed;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+  .menu {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5vh;
+  }
+
+  .menu svg {
+    height: 5vh;
+    width: 5vh;
+  }
+
+  .logoMobile {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 3vh;
+    position: fixed;
+    margin-top: 5vh;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+/* desktop */
+
+@media (min-width: 991px) {
+  .mobile {
+    display: none;
+  }
+}

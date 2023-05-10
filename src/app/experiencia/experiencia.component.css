@@ -1,0 +1,210 @@
+.content {
+  background: linear-gradient(to top left, #090b1b, #0b113f);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: -100vh !important;
+}
+
+.titulo {
+  width: 9ch;
+  border-right: 4px solid aqua;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white !important;
+  font-size: 50px;
+  text-shadow: 1px 3px 1px aqua;
+  -webkit-animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
+}
+
+#huki {
+  box-shadow: 0px 0px 8px yellow;
+  background-image: url(/assets/huki.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#blackjack {
+  box-shadow: 0px 0px 8px greenyellow;
+  background-image: url(/assets/blackjack.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#blackjack:hover {
+  box-shadow: 0px 0px 20px greenyellow;
+}
+
+#barinCard {
+  box-shadow: 0px 0px 8px darkviolet;
+  background-image: url(/assets/portBarin.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.imgTech {
+  height: 35px;
+  margin-top: 40px;
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+#huki:hover {
+  box-shadow: 0px 0px 20px yellow;
+}
+
+#barinCard:hover {
+  box-shadow: 0px 0px 20px darkviolet;
+}
+
+.contenedorCards {
+  width: 1050px;
+  height: 400px;
+  margin-top: 10vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: 0.2s;
+
+  width: 350px;
+  height: 395px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.tituloInterno {
+  text-shadow: 2px 3px 1px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 320px;
+  font-size: 20px;
+}
+
+/* mobile */
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  .subTitleMobile {
+    text-shadow: 1px 2px 1px black;
+    text-align: center;
+    font-size: 3.3vh;
+    margin-top: 8vh;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  @keyframes animacionImgMobile {
+    0% {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.08);
+      -webkit-transform: scale(1.08);
+      -moz-transform: scale(1.08);
+      -ms-transform: scale(1.08);
+      -o-transform: scale(1.08);
+}
+
+    100% {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+    }
+  }
+
+  .imgMobile {
+    margin-top: 5vh;
+    height: 250px;
+    animation: animacionImgMobile 2s linear infinite;
+    border-radius: 15px;
+    background-size: contain !important;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-animation: animacionImgMobile 2s linear infinite;
+  }
+  .tituloMobile {
+    width: 9ch;
+    padding-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(9), blink 0.5s infinite step-end alternate;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white !important;
+    font-size: 50px;
+    text-shadow: 1px 3px 1px aqua;
+    -webkit-animation: typing 1s steps(9),
+      blink 0.5s infinite step-end alternate;
+  }
+
+  .mobile {
+    background: linear-gradient(to top left, #090b1b, #0b113f);
+    width: 100vw;
+    margin-top: 100px;
+    text-align: center !important;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+/* desktop */
+
+@media (min-width: 991px) {
+  .mobile {
+    display: none;
+  }
+}
