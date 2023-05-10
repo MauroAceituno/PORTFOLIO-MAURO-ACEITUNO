@@ -217,9 +217,9 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     display: block;
     white-space: nowrap;
-    width: 23ch;
-    animation: typing 2s steps(23), blink 0.5s infinite step-end alternate;
-    -webkit-animation: typing 2s steps(23),
+    width: 24ch;
+    animation: typing 2s steps(24), blink 0.5s infinite step-end alternate;
+    -webkit-animation: typing 2s steps(24),
       blink 0.5s infinite step-end alternate;
     overflow: hidden;
   }
