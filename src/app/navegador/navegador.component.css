@@ -101,7 +101,6 @@ svg:hover {
   }
   .mobile {
     display: fixed;
-   
   }
   .navMobile {
     z-index: 30 !important;
@@ -116,7 +115,7 @@ svg:hover {
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
-}
+  }
 
   .contentHamburger {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -130,7 +129,7 @@ svg:hover {
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
-}
+  }
 
   .contentHamburger:active {
     color: aqua;
@@ -145,13 +144,13 @@ svg:hover {
     width: 100vw;
     background-color: #181818;
     color: whitesmoke;
-    height: 45vh;
+    height: 40vh;
     position: fixed;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
-}
+  }
 
   .menu {
     float: right;
