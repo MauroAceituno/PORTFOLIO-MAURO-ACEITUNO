@@ -105,16 +105,16 @@ svg:hover {
   .navMobile {
     z-index: 30 !important;
     position: fixed;
-    transition: 0.3s;
+    transition: 1s;
     width: 100vw;
-    box-shadow: 0px 0px 3px aqua;
+    border-bottom: 1px solid aqua;
     background-color: #181818;
     color: whitesmoke;
     height: 15vh;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
   }
 
   .contentHamburger {
@@ -150,6 +150,21 @@ svg:hover {
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+  }
+
+  .navMobileLoading {
+    z-index: 30 !important;
+    transition: 0.5s;
+    width: 100vw;
+    background-color: #181818;
+    color: whitesmoke;
+    height: 100vh;
+    position: fixed;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border-bottom: 80px solid aqua;
   }
 
   .menu {

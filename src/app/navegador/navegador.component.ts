@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class NavegadorComponent {
   navHamburger = false;
   displayText = false;
+  loading = false;
 
   constructor(private router: Router) {}
 
@@ -25,6 +26,18 @@ export class NavegadorComponent {
       setTimeout(() => {
         this.displayText = true;
       }, 100);
+    }
+  }
+
+  onLoading(url: string) {
+    const actualUrl = this.router.url;
+    if (url === actualUrl) {
+    } else {
+      this.loading = true;
+      setTimeout(() => {
+        this.loading = false;
+        this.router.navigate([url]);
+      }, 800);
     }
   }
 

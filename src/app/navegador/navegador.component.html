@@ -136,8 +136,11 @@
 </div>
 
 <div class="mobile">
-  <div [ngClass]="navHamburger ? 'navMobileOpen' : 'navMobile'">
-    <h1 (click)="onClickHome()" routerLink="/" class="logoMobile">
+  <div
+    [class.navMobileLoading]="loading"
+    [ngClass]="navHamburger ? 'navMobileOpen' : 'navMobile'"
+  >
+    <h1 (click)="onLoading('/')" (click)="onClickHome()"  class="logoMobile">
       <b style="color: aqua">M</b>A
     </h1>
     <div class="menu">
@@ -161,17 +164,17 @@
         <path d="M4 18l16 0"></path>
       </svg>
       <h1
+        (click)="onLoading('/portfolio')"
         (click)="onClickHamburger()"
         *ngIf="displayText"
-        routerLink="/portfolio"
         class="contentHamburger"
       >
         PORTFOLIO
       </h1>
       <h1
+        (click)="onLoading('/about')"
         (click)="onClickHamburger()"
         *ngIf="displayText"
-        routerLink="/about"
         class="contentHamburger"
         style="margin-top: 120px; text-align: center"
       >
