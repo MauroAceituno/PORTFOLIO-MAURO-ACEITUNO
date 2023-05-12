@@ -25,7 +25,7 @@ export class NavegadorComponent {
       this.navHamburger = true;
       setTimeout(() => {
         this.displayText = true;
-      }, 100);
+      }, 150);
     }
   }
 
@@ -37,7 +37,7 @@ export class NavegadorComponent {
       setTimeout(() => {
         this.loading = false;
         this.router.navigate([url]);
-      }, 800);
+      }, 500);
     }
   }
 

@@ -105,17 +105,17 @@ svg:hover {
   .navMobile {
     z-index: 30 !important;
     position: fixed;
-    transition: 1s;
+    transition: 0.5s;
     width: 100vw;
     border-bottom: 1px solid aqua;
     background-color: #181818;
     color: whitesmoke;
     height: 15vh;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-  }
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
 
   .contentHamburger {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -124,12 +124,12 @@ svg:hover {
     position: fixed;
     margin-left: -230px;
     padding-top: 20px;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-  }
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
 
   .contentHamburger:active {
     color: aqua;
@@ -154,18 +154,18 @@ svg:hover {
 
   .navMobileLoading {
     z-index: 30 !important;
-    transition: 0.5s;
+    transition: 0.3s;
     width: 100vw;
     background-color: #181818;
     color: whitesmoke;
     height: 100vh;
     position: fixed;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
     border-bottom: 80px solid aqua;
-  }
+}
 
   .menu {
     float: right;
